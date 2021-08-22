@@ -1,0 +1,62 @@
+
+body{
+    background: -webkit-linear-gradient(left, #6cac96, #00c6ff);
+  }
+  * {
+    box-sizing: border-box;
+  }
+
+  .emp-profile{
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 10%;
+    border-radius: 4rem;
+    background: #fff;
+  }
+
+
+.icon,
+.text {
+  vertical-align: right;
+  display: inline-block;
+}
+
+
+
+#hello:hover {
+  letter-spacing: 0.1em;
+  background-color: #ec6072;
+}
+
+#hello {
+  color: #1e1f1c;
+
+}
+button {
+  height: 4em;
+  width: 25%;
+  padding: 1em auto;
+  margin: 1em auto;
+  background-color: #27cec0;
+  border: 3px;
+ 
+  border-radius: 100px;
+  text-transform: uppercase;
+  letter-spacing: 0cm;
+  transition: all 0.1s cubic-bezier(.4,0,.2,1);
+ 
+}
+.card{
+    display:inline-block;
+    
+     box-sizing:border-box;
+      cursor:pointer;
+    background-color: whitesmoke;
+    background-position: center ;
+      background-size: cover;
+      transition: transform 0.5s;
+    }
+.card:hover{
+    transform: translateY(-40px);
+      }
+  
